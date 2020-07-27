@@ -10,6 +10,7 @@ from sklearn.feature_selection import chi2
 from sklearn.feature_selection import SelectKBest, SelectPercentile
 # from sklearn.feature_selection import SelectKBest, chi2
 
+# copy_weight_classifier
 def multi_to_single_label(label_start, label_end):
 
     # added at the end for single labels
